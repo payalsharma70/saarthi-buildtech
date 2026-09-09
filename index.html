@@ -1,0 +1,1763 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Sarthi Buildtech - Find, buy, sell and invest in residential and commercial properties.">
+
+    <title>Sarthi Buildtech | Real Estate</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= TOP BAR ================= -->
+
+<div class="topbar">
+    <div class="container topbar-content">
+        <span>
+            <i class="fa-solid fa-location-dot"></i>
+            Your City, India
+        </span>
+
+        <span>
+            <i class="fa-solid fa-envelope"></i>
+            Contact details coming soon
+        </span>
+    </div>
+</div>
+
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="header" id="header">
+
+    <div class="container navbar">
+
+        <a href="#home" class="logo">
+
+            <div class="logo-icon">
+                <i class="fa-solid fa-building"></i>
+            </div>
+
+            <div>
+                Sarthi <span>Buildtech</span>
+            </div>
+
+        </a>
+
+
+        <button class="menu-btn" id="menuBtn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+
+        <nav class="nav-menu" id="navMenu">
+
+            <a href="#home" class="active">Home</a>
+
+            <a href="#properties">
+                Properties
+            </a>
+
+            <a href="#about">
+                About Us
+            </a>
+
+            <a href="#services">
+                Services
+            </a>
+
+            <a href="#why-us">
+                Why Us
+            </a>
+
+            <a href="#contact">
+                Contact Us
+            </a>
+
+            <a href="#properties" class="nav-button">
+                View Properties
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+
+        <span class="eyebrow">
+            <i class="fa-solid fa-house"></i>
+            REAL ESTATE • PROPERTY • INVESTMENT
+        </span>
+
+        <h1>
+            Find the Right Property.
+            <br>
+            <span>Build the Right Future.</span>
+        </h1>
+
+        <p>
+            Sarthi Buildtech — Your trusted partner for
+            buying, selling and investing in real estate.
+        </p>
+
+
+        <div class="hero-buttons">
+
+            <a href="#properties" class="btn primary">
+                Explore Properties
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a href="#contact" class="btn outline">
+                Contact Us
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- SEARCH BOX -->
+
+    <div class="container search-container">
+
+        <div class="property-search">
+
+            <div class="search-field">
+
+                <label>Location</label>
+
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <input
+                        type="text"
+                        id="location"
+                        placeholder="Enter location">
+                </div>
+
+            </div>
+
+
+            <div class="search-field">
+
+                <label>Property Type</label>
+
+                <div>
+
+                    <i class="fa-solid fa-building"></i>
+
+                    <select id="propertyType">
+
+                        <option value="">
+                            Any Type
+                        </option>
+
+                        <option value="Residential">
+                            Residential
+                        </option>
+
+                        <option value="Commercial">
+                            Commercial
+                        </option>
+
+                        <option value="Plot">
+                            Plot
+                        </option>
+
+                        <option value="Luxury">
+                            Luxury
+                        </option>
+
+                        <option value="Investment">
+                            Investment
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+            <div class="search-field">
+
+                <label>Purpose</label>
+
+                <div>
+
+                    <i class="fa-solid fa-tag"></i>
+
+                    <select>
+
+                        <option>
+                            Buy / Sell / Rent
+                        </option>
+
+                        <option>
+                            Buy
+                        </option>
+
+                        <option>
+                            Sell
+                        </option>
+
+                        <option>
+                            Rent
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+            <div class="search-field">
+
+                <label>Budget</label>
+
+                <div>
+
+                    <i class="fa-solid fa-indian-rupee-sign"></i>
+
+                    <select>
+
+                        <option>
+                            Any Budget
+                        </option>
+
+                        <option>
+                            Under ₹50 Lakh
+                        </option>
+
+                        <option>
+                            ₹50 Lakh - ₹1 Cr
+                        </option>
+
+                        <option>
+                            ₹1 Cr - ₹2 Cr
+                        </option>
+
+                        <option>
+                            Above ₹2 Cr
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+            <button class="search-btn" id="searchBtn">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                Search
+
+            </button>
+
+        </div>
+
+        <div id="searchMessage" class="search-message"></div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= CATEGORIES ================= -->
+
+<section class="section categories">
+
+    <div class="container">
+
+        <div class="section-heading center">
+
+            <span class="eyebrow dark">
+                PROPERTY CATEGORIES
+            </span>
+
+            <h2>
+                Explore Properties
+            </h2>
+
+            <p>
+                Explore property options designed for
+                living, business and long-term growth.
+            </p>
+
+        </div>
+
+
+        <div class="category-grid">
+
+
+            <div class="category-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=85"
+                    alt="Residential property">
+
+                <div class="category-content">
+
+                    <span>01</span>
+
+                    <h3>
+                        Residential Properties
+                    </h3>
+
+                    <p>
+                        Homes and apartments for comfortable living.
+                    </p>
+
+                    <button
+                        class="text-button"
+                        data-filter="Residential">
+
+                        Explore
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="category-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1000&q=85"
+                    alt="Commercial property">
+
+                <div class="category-content">
+
+                    <span>02</span>
+
+                    <h3>
+                        Commercial Properties
+                    </h3>
+
+                    <p>
+                        Spaces for offices, retail and business.
+                    </p>
+
+                    <button
+                        class="text-button"
+                        data-filter="Commercial">
+
+                        Explore
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="category-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1000&q=85"
+                    alt="Land property">
+
+                <div class="category-content">
+
+                    <span>03</span>
+
+                    <h3>
+                        Plots & Land
+                    </h3>
+
+                    <p>
+                        Land options for building and investment.
+                    </p>
+
+                    <button
+                        class="text-button"
+                        data-filter="Plot">
+
+                        Explore
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="category-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=85"
+                    alt="Luxury property">
+
+                <div class="category-content">
+
+                    <span>04</span>
+
+                    <h3>
+                        Luxury Properties
+                    </h3>
+
+                    <p>
+                        Premium spaces with refined design.
+                    </p>
+
+                    <button
+                        class="text-button"
+                        data-filter="Luxury">
+
+                        Explore
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="category-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1000&q=85"
+                    alt="Investment property">
+
+                <div class="category-content">
+
+                    <span>05</span>
+
+                    <h3>
+                        Investment Properties
+                    </h3>
+
+                    <p>
+                        Options to explore potential long-term value.
+                    </p>
+
+                    <button
+                        class="text-button"
+                        data-filter="Investment">
+
+                        Explore
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FEATURED PROPERTIES ================= -->
+
+<section class="section properties" id="properties">
+
+    <div class="container">
+
+        <div class="section-heading property-heading">
+
+            <div>
+
+                <span class="eyebrow dark">
+                    CURATED LISTINGS
+                </span>
+
+                <h2>
+                    Featured Properties
+                </h2>
+
+            </div>
+
+            <p>
+                Sample listings are provided for demonstration.
+                Replace them with your actual property inventory.
+            </p>
+
+        </div>
+
+
+        <div class="filters">
+
+            <button class="filter active" data-filter="All">
+                All
+            </button>
+
+            <button class="filter" data-filter="Residential">
+                Residential
+            </button>
+
+            <button class="filter" data-filter="Commercial">
+                Commercial
+            </button>
+
+            <button class="filter" data-filter="Plot">
+                Plots
+            </button>
+
+            <button class="filter" data-filter="Luxury">
+                Luxury
+            </button>
+
+            <button class="filter" data-filter="Investment">
+                Investment
+            </button>
+
+        </div>
+
+
+        <div
+            class="property-grid"
+            id="propertyGrid">
+        </div>
+
+        <p
+            id="emptyState"
+            class="empty-state">
+            No matching properties found.
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="section about" id="about">
+
+    <div class="container about-grid">
+
+        <div class="about-images">
+
+            <img
+                class="about-main"
+                src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85"
+                alt="Premium property">
+
+            <div class="about-badge">
+
+                <strong>
+                    Trusted
+                </strong>
+
+                <span>
+                    Real Estate Assistance
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="about-content">
+
+            <span class="eyebrow dark">
+                ABOUT SARTHI BUILDTECH
+            </span>
+
+            <h2>
+                Building Trust,
+                <br>
+                <span>One Property at a Time.</span>
+            </h2>
+
+            <p>
+                Sarthi Buildtech is focused on helping customers
+                navigate property decisions with clarity and confidence.
+                We aim to connect buyers, sellers and investors with
+                suitable real-estate opportunities.
+            </p>
+
+            <p>
+                Our approach is centered on transparent dealings,
+                genuine property information, market awareness and
+                customer-focused assistance.
+            </p>
+
+
+            <a href="#contact" class="btn dark">
+                Talk to Our Team
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+
+            <div class="stats">
+
+                <div>
+                    <strong
+                        class="counter"
+                        data-target="10">
+                        0
+                    </strong>
+
+                    <b>+</b>
+
+                    <span>
+                        Years Experience*
+                    </span>
+                </div>
+
+
+                <div>
+                    <strong
+                        class="counter"
+                        data-target="500">
+                        0
+                    </strong>
+
+                    <b>+</b>
+
+                    <span>
+                        Properties Dealt*
+                    </span>
+                </div>
+
+
+                <div>
+                    <strong
+                        class="counter"
+                        data-target="300">
+                        0
+                    </strong>
+
+                    <b>+</b>
+
+                    <span>
+                        Happy Clients*
+                    </span>
+                </div>
+
+
+                <div>
+                    <strong>
+                        100
+                    </strong>
+
+                    <b>%</b>
+
+                    <span>
+                        Customer Focus
+                    </span>
+                </div>
+
+            </div>
+
+            <small>
+                *Replace sample figures with verified company information.
+            </small>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= SERVICES ================= -->
+
+<section class="section services" id="services">
+
+    <div class="container">
+
+        <div class="section-heading center">
+
+            <span class="eyebrow dark">
+                WHAT WE DO
+            </span>
+
+            <h2>
+                Our Real Estate Services
+            </h2>
+
+            <p>
+                Professional assistance across key property requirements.
+            </p>
+
+        </div>
+
+
+        <div class="service-grid">
+
+
+            <div class="service-card">
+
+                <i class="fa-solid fa-house-circle-check"></i>
+
+                <h3>
+                    Property Buying
+                </h3>
+
+                <p>
+                    Explore suitable properties based on your
+                    requirements and budget.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+
+                <h3>
+                    Property Selling
+                </h3>
+
+                <p>
+                    Support for presenting and connecting your
+                    property with prospects.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <i class="fa-solid fa-key"></i>
+
+                <h3>
+                    Property Rental
+                </h3>
+
+                <p>
+                    Assistance for residential and commercial
+                    rental requirements.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <i class="fa-solid fa-house"></i>
+
+                <h3>
+                    Residential Property
+                </h3>
+
+                <p>
+                    Homes, apartments and residential opportunities.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <i class="fa-solid fa-city"></i>
+
+                <h3>
+                    Commercial Property
+                </h3>
+
+                <p>
+                    Office, retail and business property opportunities.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+                <h3>
+                    Plot & Land Deals
+                </h3>
+
+                <p>
+                    Explore land options for construction and investment.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <i class="fa-solid fa-chart-line"></i>
+
+                <h3>
+                    Investment Consulting
+                </h3>
+
+                <p>
+                    Property-focused guidance to help evaluate opportunities.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <i class="fa-solid fa-comments"></i>
+
+                <h3>
+                    Real Estate Consultation
+                </h3>
+
+                <p>
+                    Discuss your goals and get practical property guidance.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= WHY US ================= -->
+
+<section class="why-us" id="why-us">
+
+    <div class="container why-grid">
+
+        <div class="why-content">
+
+            <span class="eyebrow">
+                WHY SARTHI BUILDTECH
+            </span>
+
+            <h2>
+                A Better Way to
+                Navigate Real Estate.
+            </h2>
+
+            <p>
+                Property decisions deserve clear information,
+                careful evaluation and responsive support.
+                Our service philosophy keeps your requirements
+                at the center.
+            </p>
+
+            <a href="#contact" class="btn gold">
+                Discuss Your Requirement
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <div class="why-list">
+
+            <div class="why-item">
+
+                <span>✓</span>
+
+                <div>
+                    <h3>
+                        Verified Property Options
+                    </h3>
+
+                    <p>
+                        Property information can be reviewed
+                        before being presented to customers.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="why-item">
+
+                <span>✓</span>
+
+                <div>
+                    <h3>
+                        Transparent Dealings
+                    </h3>
+
+                    <p>
+                        Clear communication around property
+                        details and transaction steps.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="why-item">
+
+                <span>✓</span>
+
+                <div>
+                    <h3>
+                        Expert Market Guidance
+                    </h3>
+
+                    <p>
+                        Practical assistance for comparing
+                        locations and property opportunities.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="why-item">
+
+                <span>✓</span>
+
+                <div>
+                    <h3>
+                        Customer-First Approach
+                    </h3>
+
+                    <p>
+                        Your goals guide the property search process.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="why-item">
+
+                <span>✓</span>
+
+                <div>
+                    <h3>
+                        Documentation Support
+                    </h3>
+
+                    <p>
+                        Guidance through the documentation process.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="why-item">
+
+                <span>✓</span>
+
+                <div>
+                    <h3>
+                        Real Estate Assistance
+                    </h3>
+
+                    <p>
+                        Support throughout your property journey.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= PROCESS ================= -->
+
+<section class="section process">
+
+    <div class="container">
+
+        <div class="section-heading center">
+
+            <span class="eyebrow dark">
+                SIMPLE PROCESS
+            </span>
+
+            <h2>
+                Your Property Journey
+            </h2>
+
+            <p>
+                A straightforward four-step approach.
+            </p>
+
+        </div>
+
+
+        <div class="steps">
+
+
+            <div class="step">
+
+                <span>01</span>
+
+                <i class="fa-solid fa-clipboard-list"></i>
+
+                <h3>
+                    Tell Us Your Requirement
+                </h3>
+
+                <p>
+                    Share your preferred property type,
+                    location and budget.
+                </p>
+
+            </div>
+
+
+            <div class="step">
+
+                <span>02</span>
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <h3>
+                    Explore Suitable Properties
+                </h3>
+
+                <p>
+                    Review options matching your requirements.
+                </p>
+
+            </div>
+
+
+            <div class="step">
+
+                <span>03</span>
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+                <h3>
+                    Visit & Evaluate
+                </h3>
+
+                <p>
+                    Visit shortlisted properties and assess them.
+                </p>
+
+            </div>
+
+
+            <div class="step">
+
+                <span>04</span>
+
+                <i class="fa-solid fa-handshake"></i>
+
+                <h3>
+                    Close Your Deal
+                </h3>
+
+                <p>
+                    Proceed after completing due diligence.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= TESTIMONIALS ================= -->
+
+<section class="section testimonials">
+
+    <div class="container">
+
+        <div class="section-heading center">
+
+            <span class="eyebrow dark">
+                CLIENT EXPERIENCE
+            </span>
+
+            <h2>
+                What Our Clients Say
+            </h2>
+
+            <p>
+                Placeholder reviews — replace these with
+                verified customer testimonials.
+            </p>
+
+        </div>
+
+
+        <div class="testimonial-grid">
+
+
+            <div class="testimonial">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    “The team was helpful throughout the property
+                    search and made it easier to compare our options.”
+                </p>
+
+                <div class="client">
+
+                    <div class="avatar">
+                        A
+                    </div>
+
+                    <div>
+                        <strong>
+                            Placeholder Client
+                        </strong>
+
+                        <span>
+                            Your City, India
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="testimonial">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    “Clear communication and a professional approach.
+                    The experience was smooth from enquiry to visit.”
+                </p>
+
+                <div class="client">
+
+                    <div class="avatar">
+                        R
+                    </div>
+
+                    <div>
+                        <strong>
+                            Placeholder Client
+                        </strong>
+
+                        <span>
+                            Your City, India
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="testimonial">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    “They understood our requirement and helped us
+                    shortlist suitable property options.”
+                </p>
+
+                <div class="client">
+
+                    <div class="avatar">
+                        S
+                    </div>
+
+                    <div>
+                        <strong>
+                            Placeholder Client
+                        </strong>
+
+                        <span>
+                            Your City, India
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= CTA ================= -->
+
+<section class="cta">
+
+    <div class="container cta-content">
+
+        <div>
+
+            <span class="eyebrow">
+                LET'S FIND THE RIGHT FIT
+            </span>
+
+            <h2>
+                Looking for Your Next Property?
+            </h2>
+
+            <p>
+                Let Sarthi Buildtech help you find a property
+                that fits your needs, budget and future goals.
+            </p>
+
+        </div>
+
+
+        <div class="cta-buttons">
+
+            <a href="#properties" class="btn white">
+                Find a Property
+            </a>
+
+            <a href="#contact" class="btn outline-white">
+                Talk to an Expert
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="section contact" id="contact">
+
+    <div class="container contact-grid">
+
+
+        <div class="contact-info">
+
+            <span class="eyebrow dark">
+                GET IN TOUCH
+            </span>
+
+            <h2>
+                Let's Talk About
+                Your Property Goals.
+            </h2>
+
+            <p>
+                Tell us what you are looking for and
+                we can discuss the next steps.
+            </p>
+
+
+            <div class="contact-brand">
+
+                <div class="logo-icon">
+                    <i class="fa-solid fa-building"></i>
+                </div>
+
+                <div>
+
+                    <strong>
+                        Sarthi Buildtech
+                    </strong>
+
+                    <small>
+                        Your Trusted Real Estate Partner
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-details">
+
+
+                <div>
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <div>
+                        <strong>
+                            Office Address
+                        </strong>
+
+                        <span>
+                            To be updated
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <div>
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    <div>
+                        <strong>
+                            Phone Number
+                        </strong>
+
+                        <span>
+                            To be updated
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <div>
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <div>
+                        <strong>
+                            Email
+                        </strong>
+
+                        <span>
+                            To be updated
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <div>
+
+                    <i class="fa-solid fa-map"></i>
+
+                    <div>
+                        <strong>
+                            Google Maps
+                        </strong>
+
+                        <span>
+                            Map link to be added
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- CONTACT FORM -->
+
+        <form class="contact-form" id="contactForm">
+
+            <h3>
+                Send an Enquiry
+            </h3>
+
+            <p>
+                Fill in your details and we'll get back to you.
+            </p>
+
+
+            <div class="form-grid">
+
+
+                <label>
+                    Name
+
+                    <input
+                        type="text"
+                        name="name"
+                        required
+                        placeholder="Your name">
+
+                </label>
+
+
+                <label>
+                    Phone Number
+
+                    <input
+                        type="tel"
+                        name="phone"
+                        required
+                        placeholder="Your phone number">
+
+                </label>
+
+
+                <label>
+                    Email
+
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Your email">
+
+                </label>
+
+
+                <label>
+                    Property Requirement
+
+                    <select name="requirement">
+
+                        <option>
+                            Buying
+                        </option>
+
+                        <option>
+                            Selling
+                        </option>
+
+                        <option>
+                            Renting
+                        </option>
+
+                        <option>
+                            Investment
+                        </option>
+
+                        <option>
+                            Consultation
+                        </option>
+
+                    </select>
+
+                </label>
+
+
+                <label>
+                    Preferred Location
+
+                    <input
+                        type="text"
+                        name="location"
+                        placeholder="Preferred location">
+
+                </label>
+
+
+                <label class="full">
+
+                    Message
+
+                    <textarea
+                        name="message"
+                        rows="4"
+                        placeholder="Tell us what you are looking for">
+                    </textarea>
+
+                </label>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="btn dark submit-btn">
+
+                Submit Enquiry
+
+                <i class="fa-solid fa-paper-plane"></i>
+
+            </button>
+
+
+            <p
+                id="formMessage"
+                class="form-message">
+            </p>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+
+        <div class="footer-brand">
+
+            <a href="#home" class="footer-logo">
+
+                <div class="logo-icon">
+                    <i class="fa-solid fa-building"></i>
+                </div>
+
+                <div>
+                    Sarthi <span>Buildtech</span>
+                </div>
+
+            </a>
+
+            <p>
+                Your trusted partner in real estate.
+            </p>
+
+
+            <div class="socials">
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div>
+
+            <h4>
+                Quick Links
+            </h4>
+
+            <a href="#home">Home</a>
+
+            <a href="#properties">
+                Properties
+            </a>
+
+            <a href="#about">
+                About Us
+            </a>
+
+            <a href="#services">
+                Services
+            </a>
+
+            <a href="#contact">
+                Contact
+            </a>
+
+        </div>
+
+
+        <div>
+
+            <h4>
+                Property Categories
+            </h4>
+
+            <a href="#properties">
+                Residential
+            </a>
+
+            <a href="#properties">
+                Commercial
+            </a>
+
+            <a href="#properties">
+                Plots
+            </a>
+
+            <a href="#properties">
+                Investment
+            </a>
+
+        </div>
+
+
+        <div>
+
+            <h4>
+                Contact
+            </h4>
+
+            <p>
+                Office address to be added
+            </p>
+
+            <p>
+                Phone & email to be added
+            </p>
+
+            <a href="#contact" class="footer-link">
+                Send an Enquiry
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="container copyright">
+
+        <span>
+            © 2026 Sarthi Buildtech.
+            All Rights Reserved.
+        </span>
+
+        <span>
+            Property information should be independently verified.
+        </span>
+
+    </div>
+
+</footer>
+
+
+
+<!-- ================= FLOATING BUTTONS ================= -->
+
+<div class="floating-buttons">
+
+    <a href="#contact" class="float whatsapp">
+
+        <i class="fa-brands fa-whatsapp"></i>
+
+        <span>
+            WhatsApp
+        </span>
+
+    </a>
+
+
+    <a href="#contact" class="float call">
+
+        <i class="fa-solid fa-phone"></i>
+
+        <span>
+            Call Now
+        </span>
+
+    </a>
+
+</div>
+
+
+
+<!-- ================= PROPERTY MODAL ================= -->
+
+<div class="modal" id="propertyModal">
+
+    <div class="modal-box">
+
+        <button
+            class="modal-close"
+            id="modalClose">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+
+        <img
+            id="modalImage"
+            src=""
+            alt="">
+
+
+        <div class="modal-content">
+
+            <span
+                id="modalType"
+                class="modal-tag">
+            </span>
+
+            <h2 id="modalTitle"></h2>
+
+            <p id="modalLocation"></p>
+
+            <div
+                id="modalMeta"
+                class="modal-meta">
+            </div>
+
+            <h3 id="modalPrice"></h3>
+
+            <p id="modalDescription"></p>
+
+            <a href="#contact"
+               class="btn dark"
+               id="modalEnquire">
+
+                Enquire About This Property
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
+```
